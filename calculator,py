@@ -1,0 +1,18 @@
+number_1=int(input("enter a number:"))
+number_2=int(input("enter a number:"))
+operator=input("enter a operator: ")
+if operator=="+":
+  print(f"add={number_1+number_2}")
+elif operator=="-":
+  print(f"substract={number_1-number_2}")
+elif operator=="*":
+  print(f"multiplication={number_1*number_2}")
+elif operator=="/":
+  print(f"division={number_1/number_2}")
+elif operator=="**":
+  print(f"power={number_1**number_2}")
+elif operator=="%":
+  print(f"modulus={number_1%number_2}")
+elif operator=="//":
+  print(f"integer division={number_1//number_2}")
+
