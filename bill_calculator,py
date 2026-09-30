@@ -1,0 +1,7 @@
+product=input("enter the product:")
+price=int(input("enter the price:"))
+quantity=int(input("enter the quantity:"))
+discount=int(input("enter the discount %:"))
+q=price*quantity
+d=(q*discount)/100
+print(f"the product:{product}\nquantity:{quantity}\ndiscount:{(discount)}\nthe total price is:{q}\nthe discounted final price is:{q-d} ")
